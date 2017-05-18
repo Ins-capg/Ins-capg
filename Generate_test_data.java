@@ -9,8 +9,12 @@ import java.util.TreeMap;
 public class Generate_test_data {
 	  
 public static void main(String... aArgs) throws Exception{
+	//the output file -- you can specify the output file and directory
 	PrintWriter pw = new PrintWriter("C:\\Users\\uadhikar\\Documents\\new.txt");
+	
 	long tNo = 1000000001l;
+	
+	//the number of records you want to generate
 	for(int kkk = 0; kkk<1000000; kkk++){
 	// Random Account Number  
 	long START = 1000000000l;
