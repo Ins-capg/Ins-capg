@@ -8,19 +8,20 @@ Table of Contents
 --------------------------------
 1. Generate demo data using Java.
 2. Natural Language Processing Programs
-  a.Sentence Tokenizer
-  
-  b.Chunker
-  
-  c.Part of Speech Tagger
-  
-  d.Text Classifier
-  
-  e.Sentence Parser
-  
-  f.Sentence Detector
-  
-  g.Name Finder
+
+    a. Sentence Tokenizer
+
+    b. Chunker
+
+    c. Part of Speech Tagger
+
+    d. Text Classifier
+
+    e. Sentence Parser
+
+    f. Sentence Detector
+
+    g. Name Finder
   
 
 
