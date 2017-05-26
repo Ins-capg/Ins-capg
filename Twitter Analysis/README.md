@@ -7,13 +7,12 @@ Java example of analyzing twitter data with Apache Hadoop MapReduce.
  - `TwitterTopFollowers` - evaluate to 50 users by number of followers
  - `TwitterFollowerCounterGroupByRanges` - evaluate number of followers in ranges [1 .. 10], [11 .. 100], [101 .. 1000], ...
 
-As you can see in [build.log](https://github.com/pahaz/twitter-hadoop-example/blob/master/build.log.txt) and [result.log](https://github.com/pahaz/twitter-hadoop-example/blob/master/result.log.txt), the most followed person is user 16409683 - @britneyspears (according to 2011).
 
 
 # How-to run #
 
-    git clone https://github.com/pahaz/twitter-hadoop-example.git
-    cd twitter-hadoop-example
+    * Download the folder *
+    cd Twitter Analysis
     
     mvn compile
     mvn package
@@ -27,8 +26,6 @@ As you can see in [build.log](https://github.com/pahaz/twitter-hadoop-example/bl
     hadoop jar target/hhd-1.0-SNAPSHOT.jar TwitterAvgFollowers /user/s0073/count /user/s0073/avg
     hadoop jar target/hhd-1.0-SNAPSHOT.jar TwitterTopFollowers /user/s0073/count /user/s0073/top
     hadoop jar target/hhd-1.0-SNAPSHOT.jar TwitterFollowerCounterGroupByRanges /user/s0073/count /user/s0073/range
-
-see [build.log](https://github.com/pahaz/twitter-hadoop-example/blob/master/build.log.txt)
 
     
 # Source Data format #
@@ -51,7 +48,6 @@ see [build.log](https://github.com/pahaz/twitter-hadoop-example/blob/master/buil
     hadoop fs -cat /user/s0073/top/*
     hadoop fs -cat /user/s0073/range/*
 
-see [result.log](https://github.com/pahaz/twitter-hadoop-example/blob/master/result.log.txt)
 
 # Time #
 
